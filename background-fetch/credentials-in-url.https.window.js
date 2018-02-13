@@ -12,7 +12,7 @@
 backgroundFetchTest((t, bgFetch) => {
   return bgFetch.fetch(uniqueTag(), 'https://example.com');
 }, 'fetch without credentials in URL should register ok');
-
+// a comment
 backgroundFetchTest((t, bgFetch) => {
   return promise_rejects(
       t, new TypeError(),

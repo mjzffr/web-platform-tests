@@ -31,7 +31,7 @@ gattServer.CALLS([
         getPrimaryServices('heart_rate')[UUID]]),
 ```
 
-Generating:
+Generating: stuff
 
 ```
 server/getPrimaryService/gen-get-same-object.html

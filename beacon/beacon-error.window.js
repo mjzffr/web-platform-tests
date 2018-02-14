@@ -23,7 +23,6 @@ test(function() {
          `calling 'navigator.sendBeacon()' with a non-http(s) URL '${invalidUrl}' must throw a TypeError`);
 }, "Verify calling 'navigator.sendBeacon()' with a URL that is not a http(s) scheme throws an exception.");
 
-// We'll validate that we can send one beacon that uses our entire Quota and then fail to send one that is just one char.
 promise_test(async () => {
     function wait(ms) {
         return new Promise(res => step_timeout(res, ms));

@@ -10,6 +10,7 @@ def link_doc(dest):
     content = "<a href=\"{}\" id=\"link\">destination</a>".format(dest)
     return inline(content)
 
+# a change
 
 # TODO use pytest.approx once we upgrade to pytest > 3.0
 def approx(n, m, tolerance=1):

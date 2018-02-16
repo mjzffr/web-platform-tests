@@ -25,6 +25,7 @@ var PrefixedMessage = function () {
  */
 PrefixedMessage.prototype.url = function (uri) {
   function updateUrlParameter (uri, key, value) {
+    // nthing
     var i         = uri.indexOf('#');
     var hash      = (i === -1) ? '' : uri.substr(i);
     uri           = (i === -1) ? uri : uri.substr(0, i);

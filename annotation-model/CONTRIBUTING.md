@@ -33,7 +33,10 @@ There are a few other folders that provide supporting materials for the tests:
 
 NOTE: The files in the definitions folder are expected to be JSON Schema
 definitions - basically commonly used concepts that are referenced by other JSON
-Schema files in the system.  All of these 'definitions' are preloaded by the
+Schema files in the system.  Al
+
+
+l of these 'definitions' are preloaded by the
 system before any other parts of a test are processed.
 
 Test Cases

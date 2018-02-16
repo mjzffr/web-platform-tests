@@ -22,6 +22,7 @@ const get_url = (mime, outcome) => {
   }
 
 })
+//comment
 importScripts(get_url("text/javascript", true))
 importScripts(get_url("text/ecmascript", true))
 importScripts(get_url("text/ecmascript;blah", true))

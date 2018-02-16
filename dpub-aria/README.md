@@ -20,7 +20,7 @@ In order to run these tests in an automated fashion, you will need to have a
 special Assistive Technology Test Adapter (ATTA) for the platform under test.  We will
 provide a list of these for popular platforms here as they are made available.
 
-The ATTA will monitor the window under test via the platforms Accessibility
+Blah.The ATTA will monitor the window under test via the platforms Accessibility
 Layer, forwarding information about the Accessibility Tree to the running test
 so that it can evaluate support for the various features under test.
 
